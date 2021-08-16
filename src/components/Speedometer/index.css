@@ -1,0 +1,61 @@
+.app-container {
+  background-color: #07080c;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 50px;
+  font-family: 'roboto';
+  text-align: center;
+  color: #ffffff;
+  font-style: italic;
+}
+.speed-img {
+  width: 600px;
+  height: 300px;
+}
+.speed {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 30px;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  margin: 20px;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.brake-btn {
+  background-color: transparent;
+  margin: 20px;
+  color: #94a3b8;
+  width: 100px;
+  height: 40px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+span {
+  color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 20px;
+  }
+  .speed-img {
+    width: 200px;
+    height: 50px;
+  }
+  .speed {
+    font-size: 12px;
+  }
+}
